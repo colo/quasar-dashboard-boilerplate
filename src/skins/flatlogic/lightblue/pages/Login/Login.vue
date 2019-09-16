@@ -1,7 +1,7 @@
 <template>
   <div class="login-page">
     <b-container>
-      <FlatLogicLightblueWidget class="mx-auto" title="<h3 class='mt-0 fw-normal text-center'>Login to your Web App</h3>" customHeader>
+      <Widget class="mx-auto" title="<h3 class='mt-0 fw-normal text-center'>Login to your Web App</h3>" customHeader>
         <p class="text-center login-info mb-0 mt">
           Use Facebook, Twitter or your email to sign in.
         </p>
@@ -48,7 +48,7 @@
             </b-button>
           </div>
         </form>
-      </FlatLogicLightblueWidget>
+      </Widget>
     </b-container>
     <footer class="footer">
       Light Blue Vue Admin Dashboard Template - Made by <a href="https://flatlogic.com" target="_blank">Flatlogic</a>
@@ -57,11 +57,11 @@
 </template>
 
 <script>
-// import FlatLogicLightblueWidget from '@skins/flatlogic/singapp/components/FlatLogicLightblueWidget/FlatLogicLightblueWidget'
+import Widget from '@skins/flatlogic/singapp/components/Widget/Widget'
 
 export default {
   name: 'LoginPage',
-  // components: { FlatLogicLightblueWidget },
+  components: { Widget },
   data () {
     return {
       errorMessage: null,

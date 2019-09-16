@@ -1,0 +1,78 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Luciano Bueno <glamero@gmail.com>",
+  "private": true,
+  "scripts": {
+    "install": "napa",
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "quasar": "^1.0.0",
+    "vue-i18n": "^8.0.0",
+    "animate.css": "^3.6.1",
+    "animated-number-vue": "^0.1.4",
+    "awesome-bootstrap-checkbox": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "chart.js": "^2.7.3",
+    "css-loader": "^1.0.0",
+    "d3": "3.5.17",
+    "expose-loader": "^0.7.5",
+    "easy-pie-chart": "^2.1.7",
+    "font-awesome": "4.7.0",
+    "flot": "^0.8.0-alpha",
+    "glyphicons-halflings": "^1.9.1",
+    "govpredict-morris": "^0.5.1",
+    "imports-loader": "^0.8.0",
+    "jquery": "^3.3.1",
+    "jquery-mapael": "^2.2.0",
+    "jquery-sparkline": "2.4.0",
+    "jquery-ui": "^1.12.1",
+    "line-awesome": "icons8/line-awesome",
+    "messenger": "git+https://github.com/HubSpot/messenger.git#v1.4.2",
+    "napa": "^3.0.0",
+    "node-sass": "^4.9.0",
+    "nvd3": "1.8.6",
+    "rickshaw": "1.6.6",
+    "sass-loader": "^7.0.1",
+    "vee-validate": "^2.1.0-beta.6",
+    "vue-touch": "2.0.0-beta.4",
+    "vuetrend": "^0.3.2",
+    "v-calendar": "^0.9.7",
+    "vue-chartjs": "^3.4.0",
+    "vue2-google-maps": "^0.10.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-raphael": "^2.1.4",
+    "widgster": "^1.0.0",
+    "vue-router-prefetch": "^1.4.0",
+    "vue2-transitions": "^0.2.3"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0"
+  },
+  "napa": {
+    "jquery.flot.animator": "https://github.com/Codicode/flotanimator.git#3c256c0183d713fd3bf41d04417873928eb1a751",
+    "flot.dashes": "https://github.com/cquartier/flot.dashes.git",
+    "jquery.flot-orderBars": "https://github.com/emmerich/flot-orderBars.git"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}

@@ -50,6 +50,10 @@ module.exports = {
     // allow console.log during development only
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     // allow debugger during development only
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'camelcase': 'off',
+    // 'no-unused-vars': ["error", { "args": "none", "caughtErrors": "none" }],
+    'no-unused-vars': process.env.NODE_ENV === 'production' ? ["error", { "args": "none", "caughtErrors": "none" }] : 'off',
+    'vue/no-unused-components': 'off'
   }
 }

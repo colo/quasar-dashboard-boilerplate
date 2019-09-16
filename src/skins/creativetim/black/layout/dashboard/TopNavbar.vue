@@ -21,6 +21,7 @@
               data-target="#navigation"
               aria-controls="navigation-index"
               aria-label="Toggle navigation">
+              asdasd
         <span class="navbar-toggler-bar navbar-kebab"></span>
         <span class="navbar-toggler-bar navbar-kebab"></span>
         <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -47,7 +48,7 @@
             <base-dropdown tag="li"
                            :menu-on-right="!$rtl.isRTL"
                            title-tag="a" class="nav-item">
-              <a slot="title" href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true">
+              <a slot="title" href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true" v-on:click.prevent>
                 <div class="notification d-none d-lg-block d-xl-block"></div>
                 <i class="tim-icons icon-sound-wave"></i>
                 <p class="d-lg-none">
@@ -75,7 +76,7 @@
                            title-tag="a"
                            class="nav-item"
                            menu-classes="dropdown-navbar">
-              <a slot="title" href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true">
+              <a slot="title" href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true" v-on:click.prevent>
                 <div class="photo">
                   <img src="statics/skins/creativetim/black/img/anime3.png">
                 </div>

@@ -90,47 +90,6 @@ export default ({ app, router, store, Vue }) => {
       name: 'Error',
       component: ErrorPage
     }
-    // {
-    //   path: '/',
-    //   name: 'Layout',
-    //   component: Layout,
-    //   children: [
-    //     {
-    //       path: 'dashboard',
-    //       name: 'Dashboard',
-    //       component: Dashboard
-    //     },
-    //     {
-    //       path: 'typography',
-    //       name: 'Typography',
-    //       component: Typography
-    //     },
-    //     {
-    //       path: 'tables',
-    //       name: 'Tables',
-    //       component: Tables
-    //     },
-    //     {
-    //       path: 'notifications',
-    //       name: 'Notifications',
-    //       component: Notifications
-    //     },
-    //     {
-    //       path: 'components/icons',
-    //       name: 'Icons',
-    //       component: Icons
-    //     },
-    //     {
-    //       path: 'components/maps',
-    //       name: 'Maps',
-    //       component: Maps
-    //     },
-    //     {
-    //       path: 'components/charts',
-    //       name: 'Charts',
-    //       component: Charts
-    //     }
-    //   ]
-    // }
+
   ])
 }

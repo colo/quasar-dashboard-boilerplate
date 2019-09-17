@@ -1,10 +1,11 @@
 <template>
-  <b-collapse class="sidebar-collapse" id="sidebar-collapse" :visible="sidebarOpened">
+  <!-- <b-collapse class="sidebar-collapse" id="sidebar-collapse" :visible="sidebarOpened"> -->
+  <b-collapse class="sidebar-collapse" id="sidebar-collapse" :visible="true">
   <nav
     :class="{sidebar: true}"
   >
     <header class="logo">
-      <router-link to="/app">Light <span class="fw-semi-bold">Blue</span></router-link>
+      <router-link to="/">Light <span class="fw-semi-bold">Blue</span></router-link>
     </header>
     <ul class="nav">
       <NavLink

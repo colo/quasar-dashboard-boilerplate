@@ -1,7 +1,9 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
+  <!-- <q-layout view="lHh Lpr lFf"> -->
+  <q-layout view="hHh LpR fFf">
+
+    <q-header elevated class="transparent">
+      <q-toolbar class="full-width">
         <q-btn
           flat
           dense
@@ -10,8 +12,8 @@
           aria-label="Menu"
         >
           <q-icon name="menu" />
-        </q-btn>
 
+        </q-btn>
         <q-space />
         <!-- <q-toolbar-title>
           Quasar App
@@ -26,9 +28,25 @@
     <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
-      bordered
-      content-class="bg-grey-2"
+      none
+      :width="250"
+      :breakpoint="500"
+      content-class="transparent"
+      class="transparent"
     >
+    <!-- <q-drawer
+        v-model="leftDrawerOpen"
+        show-if-above
+
+        :mini="miniState"
+        @mouseover="miniState = false"
+        @mouseout="miniState = true"
+
+        :width="200"
+        :breakpoint="500"
+        bordered
+        content-class="transparent"
+      > -->
       <flat-logic-light-blue-sidebar-sidebar />
       <!-- <q-list>
         <q-item-label header>Essential Links</q-item-label>
@@ -90,7 +108,13 @@
     </q-drawer>
 
     <q-page-container>
-      <router-view />
+      <q-page>
+      <div class="content animated fadeInUp">
+        <transition name="router-animation">
+          <router-view />
+        </transition>
+      </div>
+      </q-page>
     </q-page-container>
   </q-layout>
 </template>
@@ -103,6 +127,7 @@ export default {
   data () {
     return {
       leftDrawerOpen: false
+      // miniState: true
     }
   },
   methods: {
@@ -110,6 +135,4 @@ export default {
   }
 }
 </script>
-
-<style>
-</style>
+<style src="@skins/flatlogic/lightblue/components/Layout/Layout.scss" lang="scss" />

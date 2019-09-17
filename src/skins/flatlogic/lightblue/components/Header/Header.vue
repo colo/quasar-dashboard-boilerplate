@@ -98,9 +98,9 @@
         <b-nav-item class="d-md-down-none" @click="logout">
           <i class="la la-power-off px-2" />
         </b-nav-item>
-        <b-nav-item class="d-md-none" @click="switchSidebarMethod" >
+        <!-- <b-nav-item class="d-md-none" @click="switchSidebarMethod" >
           <i class="la la-navicon px-2" />
-        </b-nav-item>
+        </b-nav-item> -->
       </b-navbar-nav>
   </b-navbar>
 </template>

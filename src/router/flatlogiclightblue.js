@@ -11,7 +11,7 @@ import Dashboard from '@skins/flatlogic/lightblue/pages/Dashboard/Dashboard'
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MyLayout.vue'),
+    component: () => import('layouts/FlatLogicLightBlue.vue'),
     children: [
       {
         path: 'dashboard',

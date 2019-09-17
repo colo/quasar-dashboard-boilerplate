@@ -1,6 +1,6 @@
 <template>
   <b-navbar class="header d-print-none">
-    <b-nav>
+    <!-- <b-nav>
       <b-nav-item>
         <a class="d-md-down-none px-2" href="#" @click="toggleSidebarMethod" id="barsTooltip">
           <i class='la la-bars la-lg' />
@@ -25,7 +25,7 @@
           <i class="la la-times la-lg" />
         </a>
       </b-nav-item>
-    </b-nav>
+    </b-nav> -->
     <b-nav>
       <b-form class="d-sm-down-none ml-5" inline>
         <b-form-group>

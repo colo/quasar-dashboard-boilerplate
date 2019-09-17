@@ -11,18 +11,6 @@ import BootstrapVue from 'bootstrap-vue'
 import VCalendar from 'v-calendar'
 import * as VueGoogleMaps from 'vue2-google-maps'
 
-// import store from './store';
-// import router from './Routes';
-// import App from './App';
-
-// import Layout from '@skins/flatlogic/lightblue/components/Layout/Layout'
-// import Typography from '@skins/flatlogic/lightblue/pages/Typography/Typography'
-// import Tables from '@skins/flatlogic/lightblue/pages/Tables/Tables'
-// import Notifications from '@skins/flatlogic/lightblue/pages/Notifications/Notifications'
-// import Icons from '@skins/flatlogic/lightblue/pages/Icons/Icons'
-// import Maps from '@skins/flatlogic/lightblue/pages/Maps/Maps'
-// import Charts from '@skins/flatlogic/lightblue/pages/Charts/Charts'
-// import Dashboard from '@skins/flatlogic/lightblue/pages/Dashboard/Dashboard'
 import Login from '@skins/flatlogic/lightblue/pages/Login/Login'
 import ErrorPage from '@skins/flatlogic/lightblue/pages/Error/Error'
 

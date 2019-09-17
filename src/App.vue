@@ -1,7 +1,6 @@
 <template>
   <div id="q-app">
     <!-- creativetim.argon -->
-    <!-- <notifications></notifications> -->
     <router-view :key="$route.fullPath"></router-view>
   </div>
 </template>
@@ -12,4 +11,4 @@ export default {
 }
 </script>
 <!-- <style src="@skins/flatlogic/lightblue/styles/theme.scss" lang="scss" /> -->
-<style src="@skins/flatlogic/singapp/styles/theme.scss" lang="scss" />
+<!-- <style src="@skins/flatlogic/singapp/styles/theme.scss" lang="scss" /> -->

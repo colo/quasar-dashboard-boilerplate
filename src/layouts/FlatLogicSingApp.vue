@@ -39,7 +39,7 @@
       v-model="left"
       show-if-above
       none
-      :width="250"
+      :width="200"
       :breakpoint="500"
       content-class="transparent"
       class="transparent"

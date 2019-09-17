@@ -22,7 +22,7 @@
         <!-- <div>Quasar v{{ $q.version }}</div> -->
         <flat-logic-sing-app-helper-helper />
         <flat-logic-sing-app-header-header />
-        <q-btn
+        <!-- <q-btn
           flat
           dense
           round
@@ -31,7 +31,7 @@
         >
           <q-icon name="menu" />
 
-        </q-btn>
+        </q-btn> -->
       </q-toolbar>
     </q-header>
 
@@ -62,7 +62,7 @@
     </q-drawer>
 
     <q-drawer
-      show-if-above v-model="right" side="right"
+      :value="right" side="right"
       none
       :width="250"
       :breakpoint="500"
@@ -102,8 +102,8 @@ export default {
   name: 'MyLayout',
   data () {
     return {
-      left: false,
-      right: false
+      left: false
+      // right: false
       // miniState: true
     }
   },
@@ -119,7 +119,7 @@ export default {
     ...mapState('layout', {
       sidebarClose: state => state.sidebarClose,
       sidebarStatic: state => state.sidebarStatic,
-      chatOpen: state => state.chatOpen
+      right: state => state.chatOpen
     })
   },
   created () {

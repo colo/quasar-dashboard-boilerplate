@@ -1,5 +1,4 @@
 <template>
-  <!-- <aside :class="{chat: true, chatOpen}"> -->
   <aside :class="{chat: true, chatOpen}">
     <header class="chatHeader">
       <h4 class="chatTitle">Contacts</h4>
@@ -76,7 +75,7 @@
 
 <script>
 import Vue from 'vue';
-// import { mapState } from 'vuex';
+import { mapState } from 'vuex';
 import $ from 'jquery';
 
 import a1 from '@skins/flatlogic/singapp/assets/people/a1.jpg';
@@ -90,7 +89,7 @@ export default {
   name: 'Chat',
   data() {
     return {
-      chatOpen: true,
+      // chatOpen: true,
       todayConversations: [{
         name: 'Chris Gray',
         status: 'success',
@@ -192,11 +191,11 @@ export default {
       }
     },
   },
-  // computed: {
-  //   ...mapState('layout', {
-  //     chatOpen: state => state.chatOpen,
-  //   }),
-  // },
+  computed: {
+    ...mapState('layout', {
+      chatOpen: state => state.chatOpen,
+    }),
+  },
 };
 </script>
 

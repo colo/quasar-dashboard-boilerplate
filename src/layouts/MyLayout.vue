@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <!-- <q-header elevated>
+    <q-header elevated>
       <q-toolbar>
         <q-btn
           flat
@@ -12,11 +12,14 @@
           <q-icon name="menu" />
         </q-btn>
 
-        <q-toolbar-title>
+        <q-space />
+        <!-- <q-toolbar-title>
           Quasar App
-        </q-toolbar-title>
+        </q-toolbar-title> -->
 
-        <div>Quasar v{{ $q.version }}</div>
+        <!-- <div>Quasar v{{ $q.version }}</div> -->
+        <flat-logic-light-blue-helper-helper />
+        <flat-logic-light-blue-header-header />
       </q-toolbar>
     </q-header>
 
@@ -26,7 +29,8 @@
       bordered
       content-class="bg-grey-2"
     >
-      <q-list>
+      <flat-logic-light-blue-sidebar-sidebar />
+      <!-- <q-list>
         <q-item-label header>Essential Links</q-item-label>
         <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
           <q-item-section avatar>
@@ -82,8 +86,8 @@
             <q-item-label caption>@QuasarFramework</q-item-label>
           </q-item-section>
         </q-item>
-      </q-list>
-    </q-drawer> -->
+      </q-list> -->
+    </q-drawer>
 
     <q-page-container>
       <router-view />

@@ -1,14 +1,19 @@
 <template>
-  <q-page class="flex flex-center">
-    <!-- <img alt="Quasar logo" src="~assets/quasar-logo-full.svg"> -->
-  </q-page>
+  <!-- <q-page class="flex flex-center"> -->
+  <!-- <q-page>
+    <dashboard />
+  </q-page> -->
+  <dashboard />
 </template>
 
 <style>
 </style>
 
 <script>
+import Dashboard from '@skins/flatlogic/lightblue/pages/Dashboard/Dashboard'
+// import Dashboard from '@skins/flatlogic/singapp/pages/Dashboard/Dashboard'
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  components: { Dashboard }
 }
 </script>

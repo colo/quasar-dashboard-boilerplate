@@ -9,11 +9,12 @@ module.exports = function (ctx) {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     boot: [
-      'creativetimargon',
+      // 'creativetimargon',
       // 'creativetimblack',
       // 'flatlogiclightblue',
       // 'flatlogicsingapp',
       // 'i18n',
+      'custom',
       'axios',
     ],
 
@@ -41,29 +42,29 @@ module.exports = function (ctx) {
 
       components: [
         'QLayout',
-        // 'QHeader',
-        // 'QDrawer',
+        'QHeader',
+        'QDrawer',
         'QPageContainer',
         'QPage',
-        // 'QToolbar',
-        // // 'QToolbarTitle',
-        // 'QBtn',
-        // 'QIcon',
-        // // 'QList',
-        // // 'QItem',
-        // // 'QItemSection',
-        // // 'QItemLabel'
-        // 'QSpace',
-        // 'QSelect',
-        // 'QTable',
-        // 'QTh',
-        // 'QTr',
-        // 'QTd',
-        // 'QRange',
-        // 'QInnerLoading',
-        // 'QSpinnerGears',
-        // 'QSeparator',
-        // 'QBtn'
+        'QToolbar',
+        'QToolbarTitle',
+        'QBtn',
+        'QIcon',
+        // 'QList',
+        // 'QItem',
+        // 'QItemSection',
+        // 'QItemLabel'
+        'QSpace',
+        'QSelect',
+        'QTable',
+        'QTh',
+        'QTr',
+        'QTd',
+        'QRange',
+        'QInnerLoading',
+        'QSpinnerGears',
+        'QSeparator',
+        'QBtn'
       ],
 
       directives: [

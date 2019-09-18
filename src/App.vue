@@ -14,3 +14,4 @@ export default {
 <style src="@skins/flatlogic/lightblue/styles/theme.scss" lang="scss" />
 <style src="@skins/flatlogic/singapp/styles/theme.scss" lang="scss" />
 -->
+<style src="@skins/flatlogic/lightblue/styles/theme.scss" lang="scss" />

@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-// import routes from './flatlogiclightblue'
+import routes from './flatlogiclightblue'
 // import routes from './flatlogicsingapp'
 // import routes from './creativetimblack'
-import routes from './creativetimargon'
+// import routes from './creativetimargon'
 
 Vue.use(VueRouter)
 

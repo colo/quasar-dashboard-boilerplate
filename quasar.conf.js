@@ -14,10 +14,10 @@ module.exports = function (ctx) {
       // 'flatlogiclightblue',
       // 'flatlogicsingapp',
       // 'i18n',
-      // 'custom-flatlogiclightblue',
+      'custom-flatlogiclightblue',
       // 'custom-flatlogicsingapp',
       // 'custom-creativetimblack',
-      'custom-creativetimargon',
+      // 'custom-creativetimargon',
       'axios',
     ],
 

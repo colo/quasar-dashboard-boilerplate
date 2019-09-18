@@ -1,9 +1,9 @@
 <template>
   <!-- <q-layout view="lHh Lpr lFf"> -->
-  <q-layout view="hHh LpR fFf">
+  <q-layout view="lHh LpR fFf">
 
     <q-header elevated class="transparent">
-      <q-toolbar class="full-width">
+      <q-toolbar class="full-width bg-gradient-success">
         <q-btn
           flat
           dense

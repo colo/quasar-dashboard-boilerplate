@@ -16,7 +16,8 @@ module.exports = function (ctx) {
       // 'i18n',
       // 'custom-flatlogiclightblue',
       // 'custom-flatlogicsingapp',
-      'custom-creativetimblack',
+      // 'custom-creativetimblack',
+      'custom-creativetimargon',
       'axios',
     ],
 

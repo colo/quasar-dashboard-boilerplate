@@ -30,8 +30,8 @@
       show-if-above
       none
       :breakpoint="500"
-      :content-style="{ backgroundColor: '#1e1e2f'}"
     >
+    <!-- :content-style="{ backgroundColor: '#1e1e2f'}" -->
     <!-- content-class="bg-dark" -->
     <side-bar>
       <template slot="links">

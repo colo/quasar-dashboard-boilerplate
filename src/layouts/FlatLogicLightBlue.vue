@@ -31,9 +31,10 @@
       none
       :width="250"
       :breakpoint="500"
-      content-class="transparent"
-      class="transparent"
     >
+    <!-- :class="'transparent'"
+    content-class="dashboard-page"
+    :content-style="{ backgroundColor: 'rgba(0,0,0,0)' }" -->
     <!-- <q-drawer
         v-model="leftDrawerOpen"
         show-if-above
@@ -135,4 +136,13 @@ export default {
   }
 }
 </script>
-<style src="@skins/flatlogic/lightblue/components/Layout/Layout.scss" lang="scss" />
+<style src="@skins/flatlogic/lightblue/components/Layout/Layout.scss" lang="scss" >
+
+.q-drawer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0);
+    z-index: 1000;
+}
+</style>

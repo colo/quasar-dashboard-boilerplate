@@ -41,8 +41,6 @@
       none
       :width="200"
       :breakpoint="500"
-      content-class="transparent"
-      class="transparent"
     >
     <!-- <q-drawer
         v-model="left"
@@ -66,8 +64,6 @@
       none
       :width="250"
       :breakpoint="500"
-      content-class="transparent"
-      class="transparent"
     >
       <flat-logic-sing-app-chat-chat />
     </q-drawer>

@@ -136,13 +136,4 @@ export default {
   }
 }
 </script>
-<style src="@skins/flatlogic/lightblue/components/Layout/Layout.scss" lang="scss" >
-
-.q-drawer {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    background: rgba(0,0,0,0);
-    z-index: 1000;
-}
-</style>
+<style src="@skins/flatlogic/lightblue/components/Layout/Layout.scss" lang="scss" />
